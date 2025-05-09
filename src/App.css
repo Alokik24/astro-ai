@@ -1,0 +1,50 @@
+/* App.css */
+.app-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: 
+    radial-gradient(circle at 50% 20%, #0a043c 0%, #000000 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle starfield effect */
+.app-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 20% 60%, rgba(255,255,255,0.1) 0.5px, transparent 1px),
+    radial-gradient(circle at 80% 30%, rgba(255,255,255,0.1) 0.5px, transparent 1px);
+  background-size: 300px 300px;
+  animation: stars 100s linear infinite;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+@keyframes stars {
+  from { background-position: 0 0; }
+  to { background-position: 1000px 500px; }
+}
+
+.orb-container {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+.celestial-header {
+  padding: 2rem;
+  text-align: center;
+  z-index: 3;
+  position: relative;
+  color: white;
+  text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
