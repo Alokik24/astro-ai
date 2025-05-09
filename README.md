@@ -1,12 +1,47 @@
-# React + Vite
+# 🔮 Astro AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A magical React crystal ball that reveals your fortune - coming soon.
 
-Currently, two official plugins are available:
+**Live Demo:** [astro-ai-mu.vercel.app](https://astro-ai-mu.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat&logo=vite)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Quick Start
+
+### Local Development
+
+```bash
+git clone https://github.com/Alokik24/astro-ai.git
+cd astro-ai
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view.
+
+## 🌟 Deployment
+
+Automatically deployed via Vercel:
+[![Vercel Deployment](https://therealsujitk-vercel-badge.vercel.app/?app=astro-ai)](https://vercel.com)
+
+## 📸 Preview
+
+<div align="center">
+  <img src="./screenshots/image.png" width="100%">
+</div>
+
+## Contributing
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Commit changes (`git commit -am 'Add new feature'`)
+4. Push to branch (`git push origin feature/improvement`)
+5. Open a Pull Request
+
+**Found an issue?** [Report it here](https://github.com/Alokik24/astro-ai/issues)
+**Have ideas?** Open a discussion!
