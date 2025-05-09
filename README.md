@@ -4,7 +4,7 @@ A magical React crystal ball that reveals your fortune - coming soon.
 
 **Live Demo:** [astro-ai-mu.vercel.app](https://astro-ai-mu.vercel.app/)
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat&logo=vite)
@@ -24,12 +24,12 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) to view.
 
-## 🌟 Deployment
+## Deployment
 
 Automatically deployed via Vercel:
 [![Vercel Deployment](https://therealsujitk-vercel-badge.vercel.app/?app=astro-ai)](https://vercel.com)
 
-## 📸 Preview
+## Preview
 
 <div align="center">
   <img src="./screenshots/image.png" width="100%">

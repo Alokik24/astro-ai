@@ -5,7 +5,7 @@ import "./CrystalBall.css";
 const CrystalBall = () => {
   const [isHovered, setIsHovered] = useState(false);
   const message = isHovered 
-    ? "Mars aligns with your GitHub commits today!" 
+    ? "The Inner Eye can be a burden, you know..." 
     : "🔮 Hover to see your fate...";
 
   return (
